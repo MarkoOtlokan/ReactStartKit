@@ -7,7 +7,7 @@ import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
 var apiBaseUrl = "http://localhost:4000/api/";
 import axios from 'axios';
-import UploadPage from './UploadPage';
+import UploadPage from '../../UploadPage';
 class Login extends Component {
   constructor(props){
     super(props);

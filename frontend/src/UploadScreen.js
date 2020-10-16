@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App/App.css';
 /*
 Screen:LoginScreen
 Loginscreen is the main screen which the user is shown on first visit to page and after
 hitting logout
 */
-import LoginScreen from './Loginscreen';
+import LoginScreen from './Pages/Login/Loginscreen';
 /*
 Module:Material-UI
 Material-UI is used for designing ui of the app
@@ -62,7 +62,7 @@ class UploadScreen extends Component {
   Parameters: event,index
   Usage:This fxn is used to remove file from filesPreview div
   if user clicks close icon adjacent to selected file
-  */ 
+  */
   handleCloseClick(event,index){
     // console.log("filename",index);
     var filesToBeSent=this.state.filesToBeSent;
@@ -161,7 +161,7 @@ toggleDrawer(event){
 /*
   Function:toggleDrawer
   Parameters: event
-  Usage:This fxn is used to close the drawer when user clicks anywhere on the 
+  Usage:This fxn is used to close the drawer when user clicks anywhere on the
   main div
   */
 handleDivClick(event){
