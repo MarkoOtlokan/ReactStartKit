@@ -11,7 +11,7 @@ import EditorInsertChart from 'material-ui/svg-icons/editor/insert-chart';
 import Checkbox from 'material-ui/Checkbox';
 import './App/App.css';
 import FontIcon from 'material-ui/FontIcon';
-var apiBaseUrl = "http://localhost:4000/api/";
+import apiBaseUrl from './const';
 
 /*
 Module:superagent

@@ -5,6 +5,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
 import axios from 'axios';
 import Login from './Pages/Login/Login';
+import apiBaseUrl from './const';
 
 class Register extends Component {
   constructor(props){
@@ -20,7 +21,6 @@ class Register extends Component {
     console.log("nextProps",nextProps);
   }
   handleClick(event,role){
-    var apiBaseUrl = "http://localhost:4000/api/";
     // console.log("values in register handler",role);
     var self = this;
     //To be done:check for empty values before hitting submit
